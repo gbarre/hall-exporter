@@ -19,11 +19,11 @@ logger = logging.getLogger(__name__)
 # Tell GPIO library to use GPIO references
 GPIO.setmode(GPIO.BCM)
 
-logger.info('Setup GPIO pin as input on GPIO17')
+logger.info('Setup GPIO pin as input on GPIO18')
 
 # Set Switch GPIO as input
 # Pull high by default
-GPIO.setup(17 , GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(18 , GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # GPIO.add_event_detect(17, GPIO.BOTH, callback=sensorCallback, bouncetime=200)
 

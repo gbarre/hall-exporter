@@ -25,4 +25,4 @@ class Collector(object):
         return
 
     def getMetrics(self):
-        return GPIO.input(17)
+        return GPIO.input(18)
